@@ -8,7 +8,12 @@ main {
 .icons-social a {
 	color: #FAFAFA;
 }
-
+.icons-social a:hover{
+    color: yellow;
+}
 .icons-social a svg path{
 	fill: #FAFAFA;
+}
+#icons0:hover{
+    color: yellow;
 }

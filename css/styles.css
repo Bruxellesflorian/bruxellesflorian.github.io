@@ -2,6 +2,7 @@
 
 html {
 	font-family: 'Roboto', sans-serif;
+	background: url(css/themes/fond.jpg);
 }
 
 @media (min-width: 576px) {

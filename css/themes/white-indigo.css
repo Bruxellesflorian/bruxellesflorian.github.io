@@ -1,14 +1,29 @@
 /* Theme */
 
 main {
-	background: #E8EAF6;
-	color: #303F9F;
+	background-image: url(fond.jpg);
+	color: white;
+    background-size: cover;
 }
 
-.icons-social a {
-	color: #303F9F;
+.icons-social i {
+	color: white;
+    transition-duration: 1s;
 }
+.icons-social i:hover{
+    color:yellow;
+    transition: transform .2s;   
+    -ms-transform:scale(1.25); /* IE 9 /     -webkit-transform: scale(1.25); / Safari 3-8 */     transform: scale(1.25);
+}
+
+
 
 .icons-social a svg path{
-	fill: #303F9F;
+	fill: white;
+}
+#titre{
+    transition-duration: 2s;
+}
+#titre:hover{
+    color: yellow;
 }
