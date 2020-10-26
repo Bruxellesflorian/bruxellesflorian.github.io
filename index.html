@@ -26,21 +26,30 @@
 <body>
 <!--	<div id="menu0">menu</div>-->
     <main>
-        <div><img src="flo.jpg"></div>
+        <div><img id="flofu" src="css/themes/flo.jpg"></div>
 		<div id="titre" class="intro">Hello, I'm Florian!</div>
 		<div class="tagline">Dev NOVICE | Code Fanatic | NUXE la crème  | BluBluBluBlu</div>
 		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a id="icons0" target="_blank" href="https://github.com/Bruxellesflorian"><i class="fab fa-github"></i></a>
+		<div id="iconS" class="icons-social">
+			<a title="GitHub" id="icon0" target="_blank" href="https://github.com/Bruxellesflorian"><i class="fab fa-github"></i></a>
 			<!-- <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a> -->
 			<!-- <a target="_blank" href="https://dev.to/"><i class="fab fa-dev"></i></a> -->
 			<!-- <a target="_blank" href="https://stackoverflow.com/"><i class="fab fa-stack-   overflow"></i></a> -->
-			<a target="_blank" href="https://www.linkedin.com/in/bertchi-florian-a3a064b1/"><i class="fab fa-linkedin"></i></a>
-			<!-- <a target="_blank" href="https://medium.com/"><i class="fab fa-medium"></i></a>
-			<a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a>
-			<a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a>
-			<a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
+			<a title="linkedin" id="icon1" target="_blank" href="https://www.linkedin.com/in/bertchi-florian-a3a064b1/"><i class="fab fa-linkedin"></i></a>
+			<!-- <a target="_blank" href="https://medium.com/"><i class="fab fa-medium"></i></a> -->
+			<!-- <a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a> -->
+			<a title="StarTrooper ! SURVIE ! " target="_blank" href="http://florian-bertchi.fr/startrooper/index.html"><i class="fas fa-meteor"></i></a>
+			<a title="Site Web de Florian" target="_blank" href="http://www.florian-bertchi.fr"><i i class="fas fa-bone"></i>></a>
+			
     </div>
 	</main>
+<script>
+	
+let icon = document.getElementById("iconS");
+icon.addEventListener("mouseenter",function(event){document.getElementById("flofu").style.opacity="100%"})
+icon.addEventListener("mouseleave",function(event){document.getElementById("flofu").style.opacity="0%"})
+
+
+</script>	
 </body>
 </html>

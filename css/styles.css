@@ -70,3 +70,13 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+#flofu{
+	opacity: 0%;
+	border-radius: 100px;
+	transition-duration: 1s;
+}
+#flofu:hover{
+	opacity: 100%;
+}
+
+

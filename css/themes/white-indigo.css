@@ -27,11 +27,11 @@ main {
 #titre:hover{
     color: yellow;
 }
-#menu0{
+/* #menu0{
     position: fixed;
     top: 1px;
     padding: 30px;
     width: 100%;
     border-bottom: solid;
     border-bottom-color: white
-}
+} */
